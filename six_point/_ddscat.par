@@ -10,8 +10,10 @@
 '**** Target Geometry and Composition ****'
 'FROM_FILE' = CSHAPE*9 shape directive
 no SHPAR parameters needed
-1         = NCOMP = number of dielectric materials
-'Au_evap' = file with refractive index 1
+'**** The dielectric properties. Refractive index 1 is the core. Refractive index 2 is the metal  ****'
+2         = NCOMP = number of dielectric materials
+'Diel_core' = file with refractive index 1 
+'Au_evap' = file with refractive index 2
 '**** Additional Nearfield calculation? ****'
 1 = NRFLD (=0 to skip nearfield calc., =1 for nearfield E, =2 for E and B)
 0.5 0.5 0.5 0.5 0.5 0.5 (fract. extension of vol. in -x,+x,-y,+y,-z,+z)
