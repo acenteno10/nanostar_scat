@@ -9,13 +9,11 @@ Purpose:
 
 '''
 
-#x = np.linspace(0.01,0.3,10) # Gaussian Variance from 1-30% of the average tip
-
-R = 16 #radius of core
-tipR = 10 #radius of cone 
-tipH = 20 #height of cone
+R = 16 #radius of core in nm
+tipR = 10 #radius of cone in nm
+tipH = 20 #height of cone in nm
 N=0.6666 #the dipole spacing in nm
-T=4 #thickness of shell
+T=4 #thickness of shell in nm
 pos= nanostar_six(R,tipR,tipH,N,T)
 print ('shape.dat written')
 print (' Edit ddscat.par for wavelengths and dielectric material')
