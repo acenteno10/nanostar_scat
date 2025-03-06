@@ -2,7 +2,7 @@ from core_star import *
 
 '''
 Purpose:
-    To model a nano star with a dielectric core optical properties of gold nanostars.
+    To model the optical properties of a Au nano star with a dielectric core.
     This code writes the shape.dat file for ddscat code. 
     
 
