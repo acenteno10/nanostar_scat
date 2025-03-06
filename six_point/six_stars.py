@@ -14,8 +14,8 @@ tipR = 10 #radius of cone in nm
 tipH = 20 #height of cone in nm
 N=0.6666 #the dipole spacing in nm
 T=4 #thickness of shell in nm
-pos= nanostar_six(R,tipR,tipH,N,T)
-print ('shape.dat written')
-print (' Edit ddscat.par for wavelengths and dielectric material')
+nanostar_six(R,tipR,tipH,N,T)
+print ('shape.dat written. Typically you would copy into the directory with DDCSAT exectutable and ddscat.par file. See DDSCAT manual for instruction')
+print ('Edit ddscat.par for wavelengths and dielectric material')
 print ('Then you can run ddscat to obtain the extinction, absorption and scattering efficiencies for the nanostar')
 print ('DDSCAT places the results in qtable')
